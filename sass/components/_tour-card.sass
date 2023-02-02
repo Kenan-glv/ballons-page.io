@@ -1,0 +1,96 @@
+.card-tour
+    position: relative
+    height: 50rem
+    perspective: 150rem
+    -moz-perspective: 150rem
+    &__side
+        height: 50rem
+        transition: all .7s ease-out
+        color: black
+        position: absolute
+        top: 0
+        left: 0
+        width: 100% 
+        backface-visibility: hidden
+        box-shadow: $box-shadow
+        border-radius: 0.5rem
+        overflow: hidden
+        &_front
+            background: $color-white
+        &_back
+            background-color: green
+            transform: rotateY(180deg)
+            background: linear-gradient(156.85deg, #C3956A 3.65%, #A24F03 100%)
+    &:hover &__side_front
+        transform: rotateY(-180deg)
+    &:hover &__side_back
+        transform: rotateY(0deg)
+    &__img
+        height: 21rem
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
+        margin-bottom: 6rem
+        &_1
+            background: url('../img/card-2.png') center / cover no-repeat
+        &_2
+            background: url('../img/card-1.png') center / cover no-repeat
+        &_3
+            background: url('../img/card-3.png') center / cover no-repeat
+    &__title
+        font-weight: 300
+        font-size: 2.8rem
+        line-height: 3.4rem
+        text-align: right
+        letter-spacing: .2rem
+        color: $color-white
+        text-transform: uppercase
+        position: absolute
+        top: 17rem
+        right: 0
+    &__span
+        background: linear-gradient(156.85deg, #C3956A 3.65%, #A24F03 100%)
+        padding: 1rem 2rem .3rem 2rem
+        &_1
+        &_2
+            position: absolute
+            top: 3.4rem
+            right: 0
+            padding-bottom: 1rem
+            padding-top: 0 rem
+    &__descr
+        ul
+            margin: 0 auto
+            width: 75%
+            text-align: center
+            @include respond(tab-land)
+                width: 100%
+            li
+                font-weight: 700
+                font-size: 1.6rem
+                line-height: 1.9rem
+                letter-spacing: .2rem
+                color: $color-gray
+                border-bottom: 1px solid $color-gray
+                display: inline-block
+                &:not(:last-child)
+                    margin-bottom: 2rem
+    &__box
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    &__text
+        margin-bottom: 8rem
+        &_1
+            font-weight: 300
+            font-size: 1.6rem
+            line-height: 1.9rem
+            letter-spacing: .2rem
+            color: $color-white
+            text-align: center
+        &_2
+            font-weight: 500
+            font-size: 6rem
+            line-height: 7.2rem
+            letter-spacing: .2rem
+            color: $color-white
+            text-align: center

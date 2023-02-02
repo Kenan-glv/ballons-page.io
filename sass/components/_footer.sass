@@ -1,0 +1,26 @@
+
+
+.img-box
+    display: flex
+    justify-content: center
+    margin-bottom: 5rem
+
+.footer
+    &__list
+        display: flex
+        justify-content: center
+    &__list-item:not(:last-child)
+        margin-right: 5rem
+    &__list-item
+        display: inline-block
+        &:hover
+            transform: translateY(-0.4rem)
+            color: $color-brown-darck
+            text-shadow: $shadow-text
+    __list-link
+        font-weight: 300
+        font-size: 1.6rem
+        line-height: 1.9rem
+        letter-spacing: .2rem
+        color: $color-white 
+

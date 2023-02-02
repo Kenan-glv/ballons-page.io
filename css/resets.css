@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* line 1, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 2, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 3, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+:focus, :active {
+  outline: none;
+}
+
+/* line 4, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+a:focus, a:active {
+  outline: none;
+}
+
+/* line 5, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+nav, footer, header, aside {
+  display: block;
+}
+
+/* line 6, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 9, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+input, button, textarea {
+  font-family: inherit;
+}
+
+/* line 10, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+input::-ms-clear {
+  display: none;
+}
+
+/* line 11, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 12, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 13, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+a, a:visited {
+  text-decoration: none;
+}
+
+/* line 14, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 15, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 16, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+img {
+  vertical-align: top;
+}
+
+/* line 17, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 18, ../../../../../OneDrive/Рабочий стол/ballons/srs/sass/resets.scss */
+a {
+  color: inherit;
+}
+
+/*# sourceMappingURL=resets.css.map */
